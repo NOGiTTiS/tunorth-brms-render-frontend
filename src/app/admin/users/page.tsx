@@ -40,6 +40,7 @@ import {
   Download,
   FileSpreadsheet,
 } from "lucide-react";
+import { API_URL } from "@/config";
 
 export default function AdminUsersPage() {
   const router = useRouter();
